@@ -1,0 +1,13 @@
+{
+  "name": "arnav-paniya",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace portfolio",
+    "build": "npm run build --workspace portfolio",
+    "lint": "npm run lint --workspace portfolio"
+  }
+}
